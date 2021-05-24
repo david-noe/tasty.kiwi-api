@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/rezepts",
-      "handler": "rezept.find",
+      "path": "/recipes",
+      "handler": "recipe.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/rezepts/count",
-      "handler": "rezept.count",
+      "path": "/recipes/count",
+      "handler": "recipe.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/rezepts/:id",
-      "handler": "rezept.findOne",
+      "path": "/recipes/:id",
+      "handler": "recipe.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/rezepts",
-      "handler": "rezept.create",
+      "path": "/recipes",
+      "handler": "recipe.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/rezepts/:id",
-      "handler": "rezept.update",
+      "path": "/recipes/:id",
+      "handler": "recipe.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/rezepts/:id",
-      "handler": "rezept.delete",
+      "path": "/recipes/:id",
+      "handler": "recipe.delete",
       "config": {
         "policies": []
       }

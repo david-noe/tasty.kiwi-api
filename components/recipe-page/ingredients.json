@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_recipe_page_ingredients",
+  "info": {
+    "name": "ingredients",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "measure": {
+      "type": "string"
+    }
+  }
+}

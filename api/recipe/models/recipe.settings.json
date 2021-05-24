@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "rezepte",
+  "collectionName": "recipes",
   "info": {
-    "name": "Rezept",
+    "name": "Recipe",
     "description": ""
   },
   "options": {
@@ -15,12 +15,12 @@
     "title": {
       "type": "string"
     },
+    "excerpt": {
+      "type": "text"
+    },
     "uid": {
       "type": "uid",
       "targetField": "title"
-    },
-    "excerpt": {
-      "type": "text"
     },
     "score": {
       "type": "integer"
@@ -36,6 +36,14 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "ingredients": {
+      "type": "component",
+      "repeatable": true,
+      "component": "recipe-page.ingredients"
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }
